@@ -219,7 +219,7 @@ definitions:
         type: string
       partialMatch:
         type: boolean
-      tagIDs:
+      tagIds:
         items:
           description: Tag identifier
           example: 1
@@ -238,7 +238,7 @@ definitions:
         type: string
       partialMatch:
         type: boolean
-      tagIDs:
+      tagIds:
         items:
           description: Tag identifier
           example: 1
@@ -409,7 +409,7 @@ definitions:
         description: Endpoint group name
         example: my-endpoint-group
         type: string
-      tagIDs:
+      tagIds:
         description: List of tag identifiers to which this endpoint group is associated
         example:
           - 1
@@ -432,7 +432,7 @@ definitions:
         description: Endpoint group name
         example: my-endpoint-group
         type: string
-      tagIDs:
+      tagIds:
         description: List of tag identifiers associated to the endpoint group
         example:
           - 3
@@ -536,7 +536,7 @@ definitions:
         description: The status of the endpoint (1 - up, 2 - down)
         example: 1
         type: integer
-      tagIDs:
+      tagIds:
         description: List of tag identifiers to which this endpoint is associated
         example:
           - 1
